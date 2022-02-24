@@ -1,0 +1,53 @@
+
+Remote API - client side device need not high computational requirements. Server side Data Processing.
+API - exposes the features of device/software to the user. Interface can by physical or code.
+REST Style for Remote API - Restful API
+---
+Protocol - Contract (lower level of API)
+---
+ex - with HTTP protocol - use GET verb - request for info - then server responds with HTML
+
+web browser[Request] > Response[Web Server] >Request> Response
+
+Both requests and response have header information.
+
+REST (Representative State Transfer)
+
+Architectural REST constraints for API - 
+1. Client-Server architecture
+2. Statelessness. [No header]
+3. Layered System - Resource Collection by accessing URI (uniform resource identifier). (CRUD operations on resources)
+4. Cachebility - Quick serving of requests
+5. Uniform Design - 
+6. Code on Demand - Abstracted layout of flask code, methods can be added later
+
+
+Stateless protocol - No information about client is kept by server.
+
+HTTP to connect to web based API
+
+Postman to work with API's
+Helper libraries for API - in javascript and python offers Boilerplate code for
+working with API's
+
+Some scripts with helper libraries - 
+twilio in python 
+
+API can be worked from scripts and CLI, also working from Web Apps by Integrating api in a web app.
+
+what is Glitch? ## pending
+
+Flask - supports server side page rendering. Any changes to the web page will require full reload.
+
+Python based web application using Flask. Flask provides API that lets you extend the framework to create your application.
+
+working in Flask - by implementing a complimentr app (sending compliments to people) via twilio SMS service, in Glitch. 
+Glitch is platform that helps to create web app with all dependencies collect in the project source code.
+
+Create an object called app : app = Flask(__name__)
+Then we create @app.route to 
+Create a couple of functions - that implements the api - to do jobs. Take help from api helper library documentation.
+
+Limit to api requests - 
+
+server side rendering vs client side rendering of web application? ##
